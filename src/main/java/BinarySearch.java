@@ -3,9 +3,10 @@ package main.java;
 public class BinarySearch {
     public static void main(String[] args) {
         int array[] = {1,3,6,9,12,14,16,17,19,22,25,26,37,62};
-        int element= 12;
-        int min= 1;
-        int max = array.length;
+        System.out.println(array.length);
+        int element= 62;
+        int min= 0;
+        int max = array.length-1;
         int index = -1;
         while(min<=max){
             int mid = min+((max-min)/2);
